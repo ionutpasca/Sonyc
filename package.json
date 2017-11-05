@@ -1,0 +1,39 @@
+{
+  "name": "sonyc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ovidiuionut94/Sonyc.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel index.js",
+    "webpack": "webpack -wd",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pasca Ovidiu Ionut",
+  "license": "ISC",
+  "description": "",
+  "private": true,
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "bluebird": "^3.5.1",
+    "webpack": "^3.8.1"
+  }
+}
